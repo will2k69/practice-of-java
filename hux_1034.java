@@ -5,5 +5,6 @@ public class hux_1034 {
         Scanner keyboard = new Scanner(System.in);
         String name = keyboard.nextLine();
         System.out.printf("Olah, %s!\n", name);
+        keyboard.close();
     }
 }

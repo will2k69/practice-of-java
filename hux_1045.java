@@ -21,5 +21,6 @@ public class hux_1045 {
     //ALTERAR A ',' PARA '.'
         String n = Double.toString(efficiency).replaceAll(",",".");
         System.out.printf("%s\n", n);
+        keyboard.close();
     }
 }
