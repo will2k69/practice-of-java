@@ -10,5 +10,6 @@ public class hux_1152 {
         Scanner keyboard = new Scanner(System.in);
         int n = keyboard.nextInt();
         System.out.println(vaiPokebola(n));
+        keyboard.close();
     }
 }
